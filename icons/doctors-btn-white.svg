@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 11" width="16" height="11">
+	<title>doctors-btn-svg</title>
+	<defs>
+		<image  width="16" height="9" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJAQMAAAAB5D5xAAAAAXNSR0IB2cksfwAAAAZQTFRFz31O////P+44zAAAAAJ0Uk5TAP9bkSK1AAAAHklEQVR4nGNgfMDA+IGB8Q8D4z+G//9BJIgNFHkAAH30CZtBVAxuAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Layer" href="#img1" x="0" y="1" />
+</svg>

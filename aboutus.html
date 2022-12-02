@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>About us</title>
+
+	<link rel="stylesheet" type="text/css" href="style-2.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- GOOGLE FONTS LINKS-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+
+
+
+	<div class="main">
+
+		<header>
+
+			<div class="header-pc">
+				<img src="icons/logo-1.svg">
+
+				<nav>
+					<a href="index.html">Home</a>
+					<a href="ourServices.html">Our Services</a>
+					<a href="blog.html">Blog</a>
+					<a href="aboutus.html" class="active-page">About us</a>
+					<a href="doctors.html">Doctors</a>
+					<a href="contactUs.html"> Contact us</a>
+				</nav>
+
+				<div>
+					<button>Make Appointment</button>
+				</div>
+			</div>
+
+			<!-- This part is for small screen devices and only appears on mobile devices -->
+			<div class="header-mobile">
+				<div>
+					<img src="icons/logo-1.svg">
+					<img src="icons/menu.svg" id="menu-btn" onclick="openMenu()">
+					<img src="icons/menu-x.svg" id="menu-x" onclick="openMenu()" class="hidden">
+				</div>
+			</div>
+
+
+			<div id="mobile-menu" class="hidden">
+
+				<nav>
+					<a href="index.html">Home</a>
+					<a href="#">Our Services</a>
+					<a href="blog.html">Blog</a>
+					<div>
+						<img src="icons/orange-line.svg">
+						<a href="aboutus.html">About us</a>
+					</div>
+					<a href="doctors.html">Doctors</a>
+					<a href="contactUs.html"> Contact us</a>
+				</nav>
+			</div>
+
+		</header>
+
+	</div> <!-- MAIN END-->
+	<section>
+
+		<div class="about-cover-img">
+			<div class="cover-card">
+				<p class="white-48">About us</p>
+			</div>
+		</div>
+		<div class="about-intro">
+			<div class="about-txt">
+				<div class="brackets">
+					<img src="icons/brackets.svg">
+				</div>
+				<div class="about-p">
+
+					<p class="black-20-l">Nullam sodales bibendum nulla ut vulputate. Vivamus auctor tincidunt urna, ac
+						molestie lectus imperdiet id. Maecenas nisl massa, mollis sed sem a, finibus dapibus dui.
+						Phasellus rhoncus, quam id molestie efficitur, elit ipsum blandit diam, ac lobortis lectus nibh
+						quis ligula. Ut nunc erat, lobortis vel ultrices aliquet, efficitur id mauris. Duis posuere
+						hendrerit est lacinia consectetur. Morbi nec volutpat ipsum. Cras blandit efficitur velit ut
+						consequat. Suspendisse potenti.</p>
+
+					<p class="black-20-l">Quisque vitae nisi tempor, ultricies purus et, maximus metus. Phasellus tempus
+						a lorem vel ultricies. Pellentesque a pharetra tellus, sit amet blandit ante. Morbi sollicitudin
+						lacus ut orci fermentum, in vestibulum nulla egestas. Pellentesque nisi orci, ullamcorper ac
+						bibendum quis, congue eget tellus. In sed est dolor. Mauris gravida sem diam, et placerat metus
+						lacinia non. Morbi pellentesque ultricies ante at ultricies. Suspendisse vulputate elit vel
+						sapien volutpat pharetra. In hac habitasse platea dictumst.</p>
+
+					<p class="black-20-l">Integer felis lorem, cursus ac leo quis, tristique elementum dolor. In hac
+						habitasse platea dictumst. In hac habitasse platea dictumst. Sed interdum tincidunt suscipit.
+						Sed sit amet tincidunt libero. Praesent id condimentum lacus. Vivamus congue scelerisque
+						pulvinar.</p>
+
+				</div> <!-- about-p -->
+			</div> <!-- about-txt -->
+		</div> <!-- about-intro -->
+
+		<div class="achievements">
+			<div class="certificates-container">
+				<p class="black-48">Our Acievements</p>
+
+				<div class="certificates-divs">
+					<div class="certificates">
+						<img src="imgs/certificate-1.png">
+						<div class="achievement-text">
+							<p class="black-36">Best Dental Clinic of 2020</p>
+							<p class="grey-20">Nullam sodales bibendum nulla ut vulputate. Vivamus auctor tincidunt
+								urna, ac molestie lectus imperdiet id. Maecenas nisl massa, mollis sed sem a, finibus
+								dapibus dui. Phasellus rhoncus, quam id molestie efficitur, elit ipsum blandit diam, ac
+								lobortis lectus nibh quis ligula. Ut nunc erat, lobortis vel ultrices aliquet, efficitur
+								id mauris.</p>
+						</div>
+					</div>
+					<div class="certificates">
+						<div class="achievement-text">
+							<p class="black-36">COVID-19 cure participants</p>
+							<p class="grey-20">Nullam sodales bibendum nulla ut vulputate. Vivamus auctor tincidunt
+								urna, ac molestie lectus imperdiet id. Maecenas nisl massa, mollis sed sem a, finibus
+								dapibus dui. Phasellus rhoncus, quam id molestie efficitur, elit ipsum blandit diam, ac
+								lobortis lectus nibh quis ligula. Ut nunc erat, lobortis vel ultrices aliquet, efficitur
+								id mauris.</p>
+						</div>
+						<img src="imgs/certificate-2.jpeg">
+					</div>
+					<div class="certificates">
+						<img src="imgs/certificate-3.png">
+
+						<div class="achievement-text">
+							<p class="black-36">Best Medicine Delivery 2021</p>
+							<p class="grey-20"> Nullam sodales bibendum nulla ut vulputate. Vivamus auctor tincidunt
+								urna, ac molestie lectus imperdiet id. Maecenas nisl massa, mollis sed sem a, finibus
+								dapibus dui. Phasellus rhoncus, quam id molestie efficitur, elit ipsum blandit diam, ac
+								lobortis lectus nibh quis ligula. Ut nunc erat, lobortis vel ultrices aliquet, efficitur
+								id mauris.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Our qualified doctors part -->
+		<div class="qualified-doctors">
+			<div class="doctors-content">
+				<div class="head">
+					<p class="black-48">Our Qualified Doctors</p>
+					<button>See All Doctors
+						<img class="img-same" src="icons/doctors-btn.svg">
+						<img class="img-white" src="icons/doctors-btn-white.svg" alt="arrow">
+					</button>
+				</div>
+				<div class="doctors-container">
+					<div>
+						<img src="imgs/doctor-1.jpeg" class="doctor-img">
+						<p class="black-24 doctor-name">Dr.Jane Nicholson</p>
+						<p class="grey-16 ">Leading Diagnostic Doctor</p>
+						<p class="blue-16 client-count">+500 Happy patients</p>
+						<p class="grey-16">iMedical Central Clinic, LA</p>
+					</div>
+					<div>
+						<img src="imgs/doctor-2.jpeg" class="doctor-img">
+						<p class="black-24 doctor-name">Dr.Alison Pretty</p>
+						<p class="grey-16 ">Consultant Dentist</p>
+						<p class="blue-16 client-count">+320 Happy patients</p>
+						<p class="grey-16">iMedical Central Clinic, LA</p>
+					</div>
+					<div>
+						<img src="imgs/doctor-3.jpeg" class="doctor-img">
+						<p class="black-24 doctor-name">Dr.Rebecca Flows</p>
+						<p class="grey-16 ">Leading Diagnostic Doctor</p>
+						<p class="blue-16 client-count">+650 Happy patients</p>
+						<p class="grey-16">iMedical Central Clinic, LA</p>
+					</div>
+					<div>
+						<img src="imgs/doctor-4.jpeg" class="doctor-img">
+						<p class="black-24 doctor-name">Dr.Maria Anderson</p>
+						<p class="grey-16 ">Leading Diagnostic Doctor</p>
+						<p class="blue-16 client-count">+400 Happy patients</p>
+						<p class="grey-16">iMedical Central Clinic, LA</p>
+					</div>
+					<div>
+						<img src="imgs/doctor-5.jpeg" class="doctor-img">
+						<p class="black-24 doctor-name">Dr.derek Mendes</p>
+						<p class="grey-16 ">Consultant Dentist</p>
+						<p class="blue-16 client-count">+780 Happy patients</p>
+						<p class="grey-16">iMedical Central Clinic, LA</p>
+					</div>
+					<div>
+						<img src="imgs/doctor-6.jpeg" class="doctor-img">
+						<p class="black-24 doctor-name">Dr.Bob Singer</p>
+						<p class="grey-16 ">Leading Diagnostic Doctor</p>
+						<p class="blue-16 client-count">+900 Happy patients</p>
+						<p class="grey-16">iMedical Central Clinic, LA</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- statistics on dark background part-->
+		<div class="statistics">
+			<div>
+				<p class="white-64">99%</p>
+				<p class="blue-24">Positive Feedback</p>
+			</div>
+			<div>
+				<p class="white-64">2,300+</p>
+				<p class="blue-24">Happy patients a week</p>
+			</div>
+			<div>
+				<p class="white-64">43</p>
+				<p class="blue-24">Professional Doctors</p>
+			</div>
+		</div>
+
+		<!-- contact form -->
+		<div class="contact-form">
+			<div class="input-container">
+
+				<div>
+					<p class="black-48">Make Appointment</p>
+				</div>
+
+				<form>
+					<input type="text" name="" placeholder="First Name">
+					<input type="text" name="" placeholder="Last Name">
+					<input type="email" name="" placeholder="Email">
+					<input type="text" name="" placeholder="Phone">
+					<input type="date" name="">
+					<input type="time" name="">
+				</form>
+				<input type="textarea" name="" id="textarea" placeholder="Your text goes here...">
+				<div><button>send <img src="icons/plane.svg"></button></div>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- START OF footer -->
+	<div class="main">
+		
+		<footer>
+			
+			<div class="footer-content">
+				<div>
+					<img src="icons/logo.svg">
+					<ul>
+						<p class="grey-16">1429 Something Bridge, LA 4281</p>
+						<p>Call: (321) 428 321 3902</p>
+						<img src="icons/social.svg">
+				</div>
+				<div>
+					<p class="black-24">Explore</p>
+					<ul>
+						<a href="#">
+							<li>Feature</li>
+						</a>
+						<a href="#">
+							<li>About us</li>
+						</a>
+						<a href="#">
+							<li>FAQs</li>
+						</a>
+						<a href="#">
+							<li>Contact us</li>
+						</a>
+					</ul>
+				</div>
+				<div>
+					<p class="black-24">Legal</p>
+					<ul>
+						<a href="#">
+							<li>Privacy Policy</li>
+						</a>
+						<a href="#">
+							<li>Terms of Services</li>
+						</a>
+						<a href="#">
+							<li>Documentation</li>
+						</a>
+						<a href="#">
+							<li>Help Center</li>
+						</a>
+					</ul>
+				</div>
+				<div>
+					<p class="black-24">Subscribe</p>
+					<ul>
+						<li>Subscribe to get the latest news from us</li>
+						<li class="subscribe">
+							<input type="email" name="" placeholder="Your Email">
+							<button>Subscribe</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="lastest-footer">
+				<p class="grey-16">© 2021 iMedical, All Rights Reserved</p>
+				<ul>
+					<a href="" class="grey-16">Privacy policy</a>
+					<a href="#" class="grey-16">Accesibility</a>
+					<a href="#" class="grey-16">Terms of Services</a>
+				</ul>
+			</div>
+
+		</footer>
+
+	</div>
+
+	<script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>

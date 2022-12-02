@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>iMedical</title>
+
+	<link rel="stylesheet" type="text/css" href="style-2.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- GOOGLE FONTS LINKS-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+</head>
+
+<body>
+	<div class="main">
+
+		<header>
+
+			<div class="header-pc">
+				<img src="icons/logo-1.svg" >
+				<nav>
+					<a href="index.html" class="active-page">Home</a>
+					<a href="ourServices.html">Our Services</a>
+					<a href="blog.html">Blog</a>
+					<a href="aboutus.html">About us</a>
+					<a href="doctors.html">Doctors</a>
+					<a href="contactUs.html"> Contact us</a>
+				</nav>
+				<div> <button>Make Appointment</button> </div>
+			</div>
+
+			<!-- This part is for small screen devices and only appears on mobile devices -->
+			<div class="header-mobile">
+				<div class="header-onOff">
+					<img src="icons/logo.svg">
+					<img src="icons/menu.svg" id="menu-btn" onclick="openMenu()">
+					<img src="icons/menu-x.svg" id="menu-x" onclick="openMenu()" class="hidden">
+				</div>
+			</div>
+
+			<div id="mobile-menu" class="hidden ">
+				<nav>
+					<div>
+						<img src="icons/orange-line.svg">
+						<a href="index.html">Home</a>
+					</div>
+					<a href="ourServices.html">Our Services</a>
+					<a href="blog.html">Blog</a>
+					<a href="aboutus.html">About us</a>
+					<a href="doctors.html">doctors</a>
+					<a href="contactUs.html"> Contact us</a>
+				</nav>
+			</div>
+		</header>
+
+	</div> <!-- MAIN END-->
+
+	<section>
+
+		<div class="introduction " >
+			<div class="introduction-content "  data-aos="fade-down" >
+				<div class="">
+					<h1>Feel Comfort Be Healthy</h1>
+					<h2>Our professional team will take care of you, we value your time and health.</h2>
+
+					<div class="intro-card">
+
+						<div>
+							<img src="icons/calendar.svg">
+							<div>
+								<p class="black-16">Make an Appointment</p>
+								<p class="black-14">Select best time for you.</p>
+							</div>
+						</div>
+
+						<div>
+							<img src="icons/users.svg">
+							<div>
+								<p class="black-16">Make an Appointment</p>
+								<p class="black-14">find the best doctor in a minute</p>
+							</div>
+						</div>
+
+						<div>
+							<img src="icons/location.svg">
+							<div>
+								<p class="black-16">Visit the clinic</p>
+								<p class="black-14">take care of your issues</p>
+							</div>
+						</div>
+
+						<div>
+							<img src="icons/msg.svg">
+							<div>
+								<p class="black-16">Make an Appointment</p>
+								<p class="black-14">Ask questions any time</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="intro-appointment" >
+						<button>Make appointment <img src="icons/arrow-l-w.svg"></button>
+						<div class="brown-16">
+							<p>Mon-Fri &nbsp;&nbsp; 10AM-9PM</p>
+							<p>Sat &nbsp;&nbsp; 10AM-2PM</p>
+						</div>
+					</div>
+				</div>
+				<div class="intro-img" data-aos="zoom-in-up"></div>
+			</div>
+		</div>
+
+		<!-- -------- top-most content for mobile devices --------- -->
+		<div class="introduction-mobile">
+			<div class="introduction-content-mobile">
+				<div class="intro-img"></div>
+
+				<div class="intro-text">
+					<h1>Feel Comfort Be Healthy</h1>
+					<h2>Our professional team will take care of you, we value your time and health.</h2>
+					<div class="intro-card">
+						<div>
+							<img src="icons/calendar.svg">
+							<div>
+								<p class="black-16">Make an Appointment</p>
+								<p class="black-14">Select best time for you.</p>
+							</div>
+						</div>
+
+						<div>
+							<img src="icons/users.svg">
+							<div>
+								<p class="black-16">Make an Appointment</p>
+								<p class="black-14">find the best doctor in a minute</p>
+							</div>
+						</div>
+
+						<div>
+							<img src="icons/location.svg">
+							<div>
+								<p class="black-16">Visit the clinic</p>
+								<p class="black-14">take care of your issues</p>
+							</div>
+						</div>
+
+						<div>
+							<img src="icons/msg.svg">
+							<div>
+								<p class="black-16">Make an Appointment</p>
+								<p class="black-14">Ask questions any time</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="intro-appointment">
+						<button>Make appointment <img src="icons/arrow-l-w.svg"></button>
+						<div class="brown-16">
+							<p>Mon-Fri &nbsp;&nbsp; 10AM-9PM</p>
+							<p>Sat &nbsp;&nbsp; 10AM-2PM</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="services" >
+			<div class="services-content">
+				<div class="hat" >
+					<p class="black-48 " data-aos="fade-right">Services</p>
+					<div class=" " data-aos="fade-left">
+						<img src="icons/arrow-l.svg">
+						<img src="icons/arrow-r.svg">
+					</div>
+				</div>
+				<div class="services-list"  data-aos="fade-up">
+					<div >
+						<img src="imgs/services-1.jpeg"  >
+						<p class="black-24">Immediate Care</p>
+					</div>
+					<div>
+						<img src="imgs/services-2.jpeg">
+						<p class="black-24">Dental Care</p>
+					</div>
+					<div>
+						<img src="imgs/services-3.jpeg">
+						<p class="black-24">Diagnostic Center</p>
+					</div>
+					<div>
+						<img src="imgs/services-2.jpeg">
+						<p class="black-24">Dental Care</p>
+					</div>
+					<div>
+						<img src="imgs/services-3.jpeg">
+						<p class="black-24">Diagnostic Center</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- why us section-->
+		<div class="why-us ">
+			<div class="why-us-content">
+				<p class="black-48 why-us-content-header" data-aos="flip-left" data-aos-duration="500">Why us?</p>
+				<div class="why-us-answers" data-aos="fade-up" data-aos-duration="1000">
+					<div class="answers ">
+						<img src="icons/dna.svg">
+						<p class="black-24">DNA Diagnostic</p>
+						<p class="grey-16"> We are proud to announce that we provide high quality diagnostics for DNA
+						</p>
+					</div>
+					<div class="answers" >
+						<img src="icons/shield.svg">
+						<p class="black-24">Insurance</p>
+						<p class="grey-16">You can get our insurance to not care of any financial difficulties in
+							future.</p>
+					</div>
+					<div class="answers">
+						<img src="icons/drug.svg">
+						<p class="black-24">Medical Support</p>
+						<p class="grey-16">We have a huge amount of high quality medicine from Germany</p>
+					</div>
+					<div class="answers">
+						<img src="icons/microscope.svg">
+						<p class="black-24">Lab Achievement</p>
+						<p class="grey-16">iMedical has 12 laboratory achievements that have world level impact in
+							medicine.</p>
+					</div>
+					<div class="answers">
+						<img src="icons/sanitizer.svg">
+						<p class="black-24">24/7 Clean</p>
+						<p class="grey-16">We care about having a clean and safe rooms for our patients</p>
+					</div>
+					<div class="answers">
+						<img src="icons/gym.svg">
+						<p class="black-24">Training Routine</p>
+						<p class="grey-16">Our doctors will help you get personal training routine to get the best
+							results</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!-- our qualified doctors part-->
+		<div class="qualified-doctors" >
+			<div class="doctors-content">
+				<div class="head">
+					<p class="black-48" data-aos="fade-down-right" data-aos-duration="800">Our Qualified Doctors</p>
+					<button class="" data-aos="fade-down-left" data-aos-duration="800">See All Doctors
+						<img class="img-same" src="icons/doctors-btn.svg" alt="arrow">
+						<img class="img-white" src="icons/doctors-btn-white.svg" alt="arrow">
+					</button>
+				</div>
+				<div class="doctors-container">
+					<div class="" data-aos="flip-right">
+						<img src="imgs/doctor-1.jpeg" class="doctor-img">
+						<p class="black-24 doctor-name">Dr.Jane Nicholson</p>
+						<p class="grey-16 ">Leading Diagnostic Doctor</p>
+						<p class="blue-16 client-count">+500 Happy patients</p>
+						<p class="grey-16">iMedical Central Clinic, LA</p>
+					</div>
+					<div  class="" data-aos="flip-right">
+						<img src="imgs/doctor-2.jpeg" class="doctor-img">
+						<p class="black-24 doctor-name">Dr.Alison Pretty</p>
+						<p class="grey-16 ">Consultant Dentist</p>
+						<p class="blue-16 client-count">+320 Happy patients</p>
+						<p class="grey-16">iMedical Central Clinic, LA</p>
+					</div>
+					<div  class="" data-aos="flip-right">
+						<img src="imgs/doctor-3.jpeg" class="doctor-img">
+						<p class="black-24 doctor-name">Dr.Rebecca Flows</p>
+						<p class="grey-16 ">Leading Diagnostic Doctor</p>
+						<p class="blue-16 client-count">+650 Happy patients</p>
+						<p class="grey-16">iMedical Central Clinic, LA</p>
+					</div>
+					<div  class="" data-aos="flip-right">
+						<img src="imgs/doctor-4.jpeg" class="doctor-img">
+						<p class="black-24 doctor-name">Dr.Maria Anderson</p>
+						<p class="grey-16 ">Leading Diagnostic Doctor</p>
+						<p class="blue-16 client-count">+400 Happy patients</p>
+						<p class="grey-16">iMedical Central Clinic, LA</p>
+					</div>
+					<div  class="" data-aos="flip-right">
+						<img src="imgs/doctor-5.jpeg" class="doctor-img">
+						<p class="black-24 doctor-name">Dr.derek Mendes</p>
+						<p class="grey-16 ">Consultant Dentist</p>
+						<p class="blue-16 client-count">+780 Happy patients</p>
+						<p class="grey-16">iMedical Central Clinic, LA</p>
+					</div>
+					<div  class="" data-aos="flip-right">
+						<img src="imgs/doctor-6.jpeg" class="doctor-img">
+						<p class="black-24 doctor-name">Dr.Bob Singer</p>
+						<p class="grey-16 ">Leading Diagnostic Doctor</p>
+						<p class="blue-16 client-count">+900 Happy patients</p>
+						<p class="grey-16">iMedical Central Clinic, LA</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div  class="statistics"  >
+			<div class="" data-aos="fade-left">
+				<p class="white-64">99%</p>
+				<p class="blue-24">Positive Feedback</p>
+			</div>
+			<div  class="" data-aos="flip-up">
+				<p class="white-64">2,300+</p>
+				<p class="blue-24">Happy patients a week</p>
+			</div>
+			<div  class="" data-aos="fade-right">
+				<p class="white-64">43</p>
+				<p class="blue-24">Professional Doctors</p>
+			</div>
+		</div>
+
+		<!-- contact form -->
+		<div class="contact-form " >
+			<div class="input-container" >
+				<div data-aos="flip-up">
+					<p class="black-48" >Make Appointment</p>
+				</div>
+				<form>
+					<input type="text" name="" placeholder="First Name" data-aos="fade-left">
+					<input type="text" name="" placeholder="Last Name" data-aos="fade-right">
+					<input type="email" name="" placeholder="Email" data-aos="fade-left">
+					<input type="text" name="" placeholder="Phone" data-aos="fade-right">
+					<input type="date" name="" data-aos="fade-left">
+					<input type="time" name="" data-aos="fade-right">
+				</form>
+				<input type="textarea" name="" id="textarea" placeholder="Your text goes here..." data-aos="fade-down">
+				<div>
+					<button  class="scroll-element js-scroll fade-in">send <img src="icons/plane.svg"></button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- START OF footer-->
+	<div class="main">
+		
+		<footer class="" data-aos="fade-up"
+		data-aos-duration="1000">
+
+			<div class="footer-content">
+				<div>
+					<img src="icons/logo.svg">
+					<ul>
+						<p class="grey-16">1429 Something Bridge, LA 4281</p>
+						<p>Call: (321) 428 321 3902</p>
+						<img src="icons/social.svg">
+					</ul>
+				</div>
+				<div>
+					<p class="black-24">Explore</p>
+					<ul>
+						<a href="#">
+							<li>Feature</li>
+						</a>
+						<a href="#">
+							<li>About us</li>
+						</a>
+						<a href="#">
+							<li>FAQs</li>
+						</a>
+						<a href="#">
+							<li>Contact us</li>
+						</a>
+					</ul>
+				</div>
+				<div>
+					<p class="black-24">Legal</p>
+					<ul>
+						<a href="#">
+							<li>Privacy Policy</li>
+						</a>
+						<a href="#">
+							<li>Terms of Services</li>
+						</a>
+						<a href="#">
+							<li>Documentation</li>
+						</a>
+						<a href="#">
+							<li>Help Center</li>
+						</a>
+					</ul>
+				</div>
+				<div>
+					<p class="black-24">Subscribe</p>
+					<ul>
+						<li>Subscribe to get the latest news from us</li>
+						<li class="subscribe">
+							<input type="email" name="" placeholder="Your Email">
+							<button>Subscribe</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="lastest-footer ">
+				<p class="grey-16">© 2021 iMedical, All Rights Reserved</p>
+				<ul>
+					<a href="" class="grey-16">Privacy policy</a>
+					<a href="#" class="grey-16">Accesibility</a>
+					<a href="#" class="grey-16">Terms of Services</a>
+				</ul>
+			</div>
+		</footer>
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="scroll.js"></script>
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+	
+	
+</body>
+
+</html>

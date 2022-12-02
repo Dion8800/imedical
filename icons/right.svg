@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>right</title>
+	<defs>
+		<image  width="512" height="342" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAFWAQMAAAAlibfOAAAAAXNSR0IB2cksfwAAAAZQTFRF////////VXz1bAAAAAJ0Uk5TAP9bkSK1AAABcUlEQVR4nO3csW3DQBBE0TUUKHQJVwpLI0tTKSxBIQOBq9uNbUDAZ2AYf2LdAJSeSEYT8XGW7fPP/pjc2flbHqzgni9W8J0nLUhWMDI3WvCgBTsqWDKftIBBmAUMwixgEOaXyCBUwUYLHqRgUmYQqgBBuCeEcEsI4SsphKQQVgphoRCGEIRQEYIQOkIQQkcIQugIQQgdIQihIwQhdIQghI4QhNARghA6QhBCRwhC6AhBCB0hCKEjBCF0hCCEjhD+E4S6EpC9fwyQZ3sCOfpCQF68YGUFZ7DzU5IFFlxSsLLz5x/4Nw5WcPBbGr6p4ts6yJrwwVKXQM7jhyt+vOMXDPyKM2QgAxmEDCoykEHIIGRQkYEMQgYhg4oMZBAyCBlUZCCDkEHIoCIDGYQMQgYVGcggZBAyqMhABiGDkEFFBjKIC0bnBmUwKIMBGfDxweWC+UM8wMgmIAcdoRwXzGBuqABPgeIxUjyHigdZ8STsL6O0b3biQXsYcl9TAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="85" />
+</svg>
